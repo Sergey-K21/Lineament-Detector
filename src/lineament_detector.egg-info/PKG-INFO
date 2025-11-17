@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: lineament_detector
+Version: 1.0.0
+Summary: A Python library for geological lineament detection in images
+Home-page: https://github.com/Sergey-K21/Lineament-Detector.git
+Author: Sergey Kostin
+Author-email: kostin.ss@phystech.edu
+Project-URL: Bug Reports, https://github.com/Sergey-K21/Lineament-Detector.git/issues
+Project-URL: Source, https://github.com/Sergey-K21/Lineament-Detector.git
+Keywords: geology,lineament,detection,image-processing,remote-sensing
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Geology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python>=4.5.0
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: matplotlib>=3.5.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: twine>=4.0; extra == "dev"
+
+# Lineament Detector
+
+A Python library for detecting geological lineaments in images.
+
+## Installation
+
+```bash
+pip install lineament-detector
